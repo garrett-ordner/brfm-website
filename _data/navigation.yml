@@ -1,0 +1,12 @@
+main:
+  - title: "Home"
+    url: "/"
+
+  - title: "About"
+    url: /about/
+
+  - title: "Worship"
+    url: /worship/
+
+  - title: "Contact"
+    url: /contact/

@@ -1,0 +1,28 @@
+title: 'Baton Rouge Friends Meeting'
+email: 'email@site.com'
+description: 'Official website of the Baton Rouge Friends Meeting, a Quaker community in Baton Rouge, Louisiana.'
+baseurl: '' # the subpath of your site, e.g. /blog
+url: 'https://garrett-ordner.github.io/brfm-website/' # change to your actual GitHub Pages URL
+theme: minimal-mistakes-jekyll
+plugins:
+  - jekyll-include-cache
+footer:
+  links: _data/footer_links.yml
+
+
+minimal_mistakes_skin: 'dirt'
+locale: 'en-US'
+
+defaults:
+  - scope:
+      path: ''
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
