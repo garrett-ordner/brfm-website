@@ -1,8 +1,7 @@
 ---
-layout: single
-title: "Contact"
+layout: archive
+title: "Contact Us"
 permalink: /contact/
-author_profile: true
 ---
 
-You can reach us at [contact@brfm.org](mailto:contact@brfm.org) or visit us at our meetinghouse in Baton Rouge, Louisiana.
+You can reach us at [placeholder@placeholder.org](mailto:) or call 555-555-5555.
