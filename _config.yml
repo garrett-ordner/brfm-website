@@ -9,7 +9,8 @@ atom_feed:
   hide: true # set to true to hide the feed link in the footer
 
 
-remote_theme: "mmistakes/minimal-mistakes@4.27.1"
+theme: minimal-mistakes-jekyll
+
 plugins:
   - jekyll-include-cache
   - jekyll-feed
