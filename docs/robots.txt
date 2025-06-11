@@ -1,1 +1,1 @@
-Sitemap: /brfm-website/sitemap.xml
+Sitemap: https://garrett-ordner.github.io//brfm-website/sitemap.xml
