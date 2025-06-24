@@ -6,7 +6,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Contact Us",
-        "excerpt":"You can reach us at placeholder@placeholder.org or call 555-555-5555.  ","categories": [],
+        "excerpt":"You can contact us through the form below, or send us a message on Facebook.            Your name:                     Your email:                     Your message:                   Send  ","categories": [],
         "tags": [],
         "url": "/contact/",
         "teaser": null
