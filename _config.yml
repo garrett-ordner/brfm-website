@@ -3,7 +3,7 @@ subtitle: 'Bayou Quarterly | South Central Yearly Meeting'
 email: 'email@site.com'
 description: 'Official website of the Baton Rouge Friends Meeting, a Quaker community in Baton Rouge, Louisiana.'
 baseurl: '' # the subpath of your site, e.g. /blog
-url: 'www.batonrougequakers.org' # change to your actual GitHub Pages URL
+url: 'https://batonrougequakers.org' # change to your actual GitHub Pages URL
 repository: 'garrett-ordner/brfm-website' # change to your actual repository name
 atom_feed:
   hide: true # set to true to hide the feed link in the footer

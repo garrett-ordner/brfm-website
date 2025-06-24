@@ -1,1 +1,1 @@
-Sitemap: /brfm-website/sitemap.xml
+Sitemap: https://batonrougequakers.org/sitemap.xml
