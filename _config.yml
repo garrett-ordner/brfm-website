@@ -9,7 +9,8 @@ atom_feed:
   hide: true # set to true to hide the feed link in the footer
 
 
-theme: minimal-mistakes-jekyll
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
 
 plugins:
   - jekyll-paginate-v2

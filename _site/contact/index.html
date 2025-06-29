@@ -11,7 +11,7 @@
     <meta charset="utf-8">
 
 <!-- begin _includes/seo.html --><title>Contact Us - Baton Rouge Friends Meeting</title>
-<meta name="description" content="You can reach us at placeholder@placeholder.org or call 555-555-5555.">
+<meta name="description" content="You can contact us through the form below, or send us a message on Facebook.">
 
 
 
@@ -19,25 +19,25 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Baton Rouge Friends Meeting">
 <meta property="og:title" content="Contact Us">
-<meta property="og:url" content="https://batonrougequakers.org/contact/">
+<meta property="og:url" content="http://localhost:4000/contact/">
 
 
-  <meta property="og:description" content="You can reach us at placeholder@placeholder.org or call 555-555-5555.">
-
-
-
-
-
-
-
-  <meta property="article:published_time" content="2025-06-23T20:06:20-05:00">
+  <meta property="og:description" content="You can contact us through the form below, or send us a message on Facebook.">
 
 
 
 
 
 
-<link rel="canonical" href="https://batonrougequakers.org/contact/">
+
+  <meta property="article:published_time" content="2025-06-29T18:50:11-05:00">
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/contact/">
 
 
 
@@ -145,7 +145,31 @@
     
       <h1 id="page-title" class="page__title">Contact Us</h1>
     
-    <p>You can reach us at <a href="mailto:">placeholder@placeholder.org</a> or call 555-555-5555.</p>
+    <p>You can contact us through the form below, or <a href="https://www.facebook.com/BRFriendsMeeting/">send us a message on Facebook.</a></p>
+
+<!-- modify this form HTML and place wherever you want your form -->
+<form action="https://formspree.io/f/mblypjqa" method="POST">
+  <label>
+    Your name:
+    <input type="text" name="name" required="" />
+  </label>
+  <br />
+
+  <label>
+    Your email:
+    <input type="email" name="email" required="" />
+  </label>
+  <br />
+
+  <label>
+    Your message:
+    <textarea name="message" required=""></textarea>
+  </label>
+  <br />
+
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
 
   </div>
 </div>
@@ -163,8 +187,6 @@
         <div class="page__footer-follow">
   <ul class="social-icons">
     
-      <li><strong>Follow:</strong></li>
-    
 
     
       
@@ -178,7 +200,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2025 <a href="https://batonrougequakers.org">Baton Rouge Friends Meeting</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2025 <a href="http://localhost:4000">Baton Rouge Friends Meeting</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
