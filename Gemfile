@@ -1,21 +1,20 @@
-# frozen_string_literal: true
-
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.3.2"
+gem "github-pages", group: :jekyll_plugins
 
-# Theme
-gem "minimal-mistakes-jekyll", "~> 4.27.1"
+gem "tzinfo-data"
+# Only install 'wdm' on Windows
+if Gem.win_platform?
+  gem "wdm"
+end
 
-# Optional plugins used by Minimal Mistakes
-gem "jekyll-paginate-v2"
-gem "jekyll-include-cache"
-
-# Build tool compatibility
-gem "webrick", "~> 1.7"
-
-# Only needed for local development
+# If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed"
+  gem "jekyll-paginate"
   gem "jekyll-sitemap"
+  gem "jekyll-gist"
+  gem "jekyll-feed"
+  gem "jemoji"
+  gem "jekyll-include-cache"
+  gem "jekyll-algolia"
 end
