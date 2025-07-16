@@ -7,16 +7,14 @@ header:
   overlay_image: "assets/images/header_img.jpg"
   overlay_filter: .5
   actions:
-    - label: "Learn More"
-      url: "/about/"
+    - label: "Contact Us"
+      url: "/contact/"
   
 ---
 
 # Welcome to the Baton Rouge Friends Meeting
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+We ask thee pardon our progress, as our website is still under contruction! To learn more, feel free to reach out through our [contact page.](/contact/) (last updated {{ site.time | date: "%B %d, %Y"}})
 
 We gather for worship every **Sunday at 11:30 AM** at The Red Shoes on Government St:
 
