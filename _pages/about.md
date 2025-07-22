@@ -6,7 +6,7 @@ show_recent_posts: false
 ---
 
 <div style="float: left; margin: 0 1em 1em 0;">
-  <img src="{{'assets/images/outdoor_sign_img.jpg' | relative_url}}" alt="Outdoor sign at Baton Rouge Friends Meeting" style="width: 250px; height: auto;">
+  <img src="{{'assets/images/outdoor_sign_img.jpg' | relative_url}}" alt="Outdoor sign at Baton Rouge Friends Meeting" style="width: 250px; height: auto; border-radius: 10px;">
 </div>
 
 Site under construction.
